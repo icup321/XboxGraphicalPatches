@@ -1,9 +1,8 @@
 'The database format is very particular. The slightest error will prevent the database from being read correctly.
 'Firstly, there should be a colon followed by the games unique Title ID. e.g. :4343000e
-'After that should come the hex values to be changed. The first line will be the values to change, the second line  should be the values to replace that with. This can be repeated for as many changes as necessary. The titles section will end at the next title ID. The hex values must be of equal length and not contain anything that is not a hex digit.
+'After that should come the hex values to be changed. The first line will be the values to change, the second line should be the values to replace that with. This can be repeated for as many changes as necessary. The titles section will end at the next title ID. The hex values must be of equal length and not contain anything that is not a hex digit.
 'The last line of the file must be :end
 'Any line beginning with an apostrophe will be ignored.
-'GAMES ADDED AND FIXES BY SPPV
 '
 'Auto Modellista / ID: 4343000e
 :4343000e
